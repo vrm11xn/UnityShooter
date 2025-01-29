@@ -19,6 +19,7 @@ public class SceneController : MonoBehaviour
 
     public void NextScene(string nextScene)
     {// 引数に入れられたシーンネームにシーンを遷移する
+        Debug.Log("change");
         SceneManager.LoadScene(nextScene);
     }
 }
