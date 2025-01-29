@@ -44,6 +44,9 @@ namespace InfimaGames.LowPolyShooterPack
 		[SerializeField]
 		private Animator characterAnimator;
 
+		[SerializeField]
+		private bool pressJump;
+
 		#endregion
 
 		#region FIELDS
@@ -256,6 +259,8 @@ namespace InfimaGames.LowPolyShooterPack
 		
 		public override Vector2 GetInputMovement() => axisMovement;
 		public override Vector2 GetInputLook() => axisLook;
+
+		public override bool GetPressJump() => pressJump;
 
 		#endregion
 
@@ -552,6 +557,7 @@ namespace InfimaGames.LowPolyShooterPack
 			return true;
 		}
 
+
 		#endregion
 
 		#region INPUT
@@ -601,10 +607,28 @@ namespace InfimaGames.LowPolyShooterPack
 					break;
 			}
 		}
-		/// <summary>
-		/// Reload.
-		/// </summary>
-		public void OnTryPlayReload(InputAction.CallbackContext context)
+
+		public void OnTryJump(InputAction.CallbackContext context) 
+		{
+            //Switch.
+            switch (context) {
+                //Started.
+                case { phase: InputActionPhase.Started }:
+                    //Hold.
+                    pressJump = true;
+                    break;
+                //Canceled.
+                case { phase: InputActionPhase.Canceled }:
+                    //Stop Hold.
+                    pressJump = false;
+                    break;
+            }
+        }
+
+        /// <summary>
+        /// Reload.
+        /// </summary>
+        public void OnTryPlayReload(InputAction.CallbackContext context)
 		{
 			//Block while the cursor is unlocked.
 			if (!cursorLocked)
@@ -802,6 +826,7 @@ namespace InfimaGames.LowPolyShooterPack
 				_ => tutorialTextVisible
 			};
 		}
+
 
 		#endregion
 
