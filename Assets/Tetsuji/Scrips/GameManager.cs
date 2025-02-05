@@ -18,9 +18,13 @@ public class GameManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.K) == true)
         {
-         
             Debug.Log("ChangeResult");
             SceneManager.LoadScene("result");
+        }
+        else if (Input.GetKeyDown(KeyCode.O) == true)
+        {
+            Debug.Log("ChangeResult");
+            SceneManager.LoadScene("ClearScene");
         }
     }
 }

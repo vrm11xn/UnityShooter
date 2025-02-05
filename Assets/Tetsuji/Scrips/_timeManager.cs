@@ -13,7 +13,8 @@ public class _timeManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fTime = fResetTime; // タイマーリセット
+        // タイマーリセット
+        fTime = fResetTime;
         timeText.text = "TimeLimit:" + fTime + "sec";
 
         // タイマーは消さないで
@@ -26,22 +27,35 @@ public class _timeManager : MonoBehaviour
         // 今のシーンを取得
         Scene scene = SceneManager.GetActiveScene();
 
-        if(scene.name == "TimeOver")
+        if (scene.name == "TimeOver")
         {// タイムオーバーシーンだと何もしない
             return;
         }
+        else if (scene.name == "ClearScene")
+        {// クリアーシーンだとタイマーを取得
+         // ヒエラルキーのオブジェクトを取得
+            GameObject objTime = GameObject.Find("TimeManager");
+            float fTime = objTime.GetComponent<_timeManager>().fTime;
 
-        if (fTime < 0.0f)
-        {// 限界値以下であれば
-            fTime = 0.0f;                       // タイマーゼロ
-            SceneManager.LoadScene("TimeOver"); // タイムオーバーシーンへ遷移
-            Debug.Log("ChangeTimeOver");
-            return;                             // ここでしょりを止める
+            // ヒエラルキーのオブジェクトを取得
+            GameObject objClear = GameObject.Find("GCManager");
+            objClear.GetComponent<_GCManager>().fGetedTime = fTime;
+            return;
         }
+        else if (scene.name == "gameScene")
+        {// ゲームシーンだとタイマーカウントする
 
-        fTime -= Time.deltaTime;        // タイマーを減らしていく
-        timeText.text = "TimeLimit:" + fTime.ToString("f1") + "sec";
+            if (fTime < 0.0f)
+            {// 限界値以下であれば
+                fTime = 0.0f;                       // タイマーゼロ
+                SceneManager.LoadScene("TimeOver"); // タイムオーバーシーンへ遷移
+                Debug.Log("ChangeTimeOver");
+                return;                             // ここでしょりを止める
+            }
 
-      
+            // タイマーを減らしていく
+            fTime -= Time.deltaTime;       
+            timeText.text = "TimeLimit:" + fTime.ToString("f1") + "sec";
+        }
     }
 }
