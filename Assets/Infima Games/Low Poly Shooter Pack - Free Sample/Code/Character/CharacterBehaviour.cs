@@ -76,6 +76,8 @@ namespace InfimaGames.LowPolyShooterPack
         /// Returns the Look Input.
         /// </summary>
         public abstract Vector2 GetInputLook();
+
+        public abstract bool GetPressJump();
         
         #endregion
 

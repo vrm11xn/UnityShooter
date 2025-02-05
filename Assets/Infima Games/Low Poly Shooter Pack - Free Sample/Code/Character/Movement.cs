@@ -28,6 +28,12 @@ namespace InfimaGames.LowPolyShooterPack
         [Tooltip("How fast the player moves while running."), SerializeField]
         private float speedRunning = 9.0f;
 
+        [Header("Jump Settings")]
+
+        [Tooltip("The upward force applied when the player jumps.")]
+        [SerializeField]
+        private float jumpForce = 5.0f;
+
         #endregion
 
         #region PROPERTIES
@@ -145,7 +151,11 @@ namespace InfimaGames.LowPolyShooterPack
         {
             //Get the equipped weapon!
             equippedWeapon = playerCharacter.GetInventory().GetEquipped();
-            
+
+            // Обрабатываем прыжок.
+            if (grounded && playerCharacter.GetPressJump())
+                Jump();
+
             //Play Sounds!
             PlayFootstepSounds();
         }
@@ -198,6 +208,15 @@ namespace InfimaGames.LowPolyShooterPack
             //Pause it if we're doing something like flying, or not moving!
             else if (audioSource.isPlaying)
                 audioSource.Pause();
+        }
+
+        private void Jump() {
+
+            if (!grounded) return;
+
+            rigidBody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+
+            grounded = false;
         }
 
         #endregion

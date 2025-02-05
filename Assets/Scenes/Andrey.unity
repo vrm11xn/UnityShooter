@@ -122,7 +122,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 51c3204a668667345a11353b0327c740, type: 2}
---- !u!1001 &400919917
+--- !u!1001 &328113793
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -130,72 +130,56 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4004381697660549996, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 566277153}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 140506, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+      propertyPath: m_Name
+      value: P_LPSP_DMG_Target
+      objectReference: {fileID: 0}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.8542953
+      value: -0.13
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.24309158
+      value: 0.2430917
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.414517
+      value: 2.47524
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6232073208594159136, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: m_Name
-      value: Peasant Nolant Blue(Free Version) (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 07f53dce21ae5ad42a47ab7c86eb122d, type: 3}
---- !u!1001 &417933154
+  m_SourcePrefab: {fileID: 100100000, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+--- !u!1001 &374440208
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -203,71 +187,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4004381697660549996, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 566277153}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 140506, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+      propertyPath: m_Name
+      value: P_LPSP_DMG_Target_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.895853
+      value: -1.29
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.24309158
+      value: 0.2430917
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.3972654
+      value: 2.47524
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6232073208594159136, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: m_Name
-      value: Peasant Nolant Blue(Free Version) (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 07f53dce21ae5ad42a47ab7c86eb122d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
 --- !u!1 &482559368
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,6 +336,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1525013773878037080, guid: b9b2e15508da5da4b91253009f1a444d,
+        type: 3}
+      propertyPath: pressJump
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647113608785888371, guid: b9b2e15508da5da4b91253009f1a444d,
+        type: 3}
+      propertyPath: jumpForce
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331969439305270987, guid: b9b2e15508da5da4b91253009f1a444d,
+        type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6166084722508560496, guid: b9b2e15508da5da4b91253009f1a444d,
         type: 3}
       propertyPath: m_Name
@@ -661,6 +644,90 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10, y: 0.1, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &1414237544
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 140506, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+      propertyPath: m_Name
+      value: P_LPSP_DMG_Target_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2430917
+      objectReference: {fileID: 0}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.47524
+      objectReference: {fileID: 0}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438956, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 84e2da24fceb32c45a3059b4c1d82538, type: 3}
+--- !u!1 &1464609002 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6232073208594159136, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2597973106120229795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1464609007
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464609002}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5510955, y: 1.7894131, z: 0.76108336}
+  m_Center: {x: 0, y: 0.89470655, z: -0.033745527}
 --- !u!1 &1566091901
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,79 +822,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &1662924888
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4004381697660549996, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 566277153}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -11.928812
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.24309158
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5.486639
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6232073208594159136, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
-        type: 3}
-      propertyPath: m_Name
-      value: Peasant Nolant Blue(Free Version) (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 07f53dce21ae5ad42a47ab7c86eb122d, type: 3}
 --- !u!1001 &2597973106120229795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -841,6 +835,27 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 566277153}
+    - target: {fileID: 4004381697660549996, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
+        type: 3}
+      propertyPath: deadTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 479baaa7fdd5bc1418aa1bf126aef3e4, type: 3}
+    - target: {fileID: 4004381697660549996, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
+        type: 3}
+      propertyPath: npcRenderer
+      value: 
+      objectReference: {fileID: 7401621017225146365, guid: de76d67d0ab88dc439b10b32370775ea,
+        type: 3}
+    - target: {fileID: 4004381697660549996, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
+        type: 3}
+      propertyPath: deadMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: c0eef74a623ce29459e6b936afe3c76a, type: 2}
+    - target: {fileID: 4004381697660549996, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
+        type: 3}
+      propertyPath: damagedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: c0eef74a623ce29459e6b936afe3c76a, type: 2}
     - target: {fileID: 4533692727046256742, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -896,10 +911,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Peasant Nolant Blue(Free Version)
       objectReference: {fileID: 0}
+    - target: {fileID: 8564113060902024888, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 11d2842bcac928c429bb42f06e1d53ab, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6232073208594159136, guid: 07f53dce21ae5ad42a47ab7c86eb122d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1464609007}
   m_SourcePrefab: {fileID: 100100000, guid: 07f53dce21ae5ad42a47ab7c86eb122d, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -910,7 +934,7 @@ SceneRoots:
   - {fileID: 926208086}
   - {fileID: 2597973106120229795}
   - {fileID: 566277153}
-  - {fileID: 417933154}
-  - {fileID: 1662924888}
-  - {fileID: 400919917}
   - {fileID: 502956964}
+  - {fileID: 328113793}
+  - {fileID: 374440208}
+  - {fileID: 1414237544}
