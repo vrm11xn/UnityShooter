@@ -45,7 +45,7 @@
                     "name": "Reload",
                     "type": "Button",
                     "id": "3c4ac825-58e8-487f-8ba7-80b959d2a946",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -54,7 +54,7 @@
                     "name": "Holster",
                     "type": "Button",
                     "id": "4989ad3b-04e9-4d5d-8aeb-d8f00ab4550b",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -63,7 +63,7 @@
                     "name": "Jump",
                     "type": "Button",
                     "id": "6bf74daf-8a98-48de-b071-9a4f6efdc3f3",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -72,7 +72,7 @@
                     "name": "Run",
                     "type": "Button",
                     "id": "779a6091-f045-4535-8635-505915368372",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -90,7 +90,7 @@
                     "name": "Lock Cursor",
                     "type": "Button",
                     "id": "9beb2473-ee7d-4a54-857b-b42a64a66a65",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false

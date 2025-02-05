@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 48dfef37b4e6f7a47b9867333ced6fa9
+  productGUID: 371af527bae150c45ade06549f41ecab
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -140,9 +140,7 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 4.0.0
-  preloadedAssets:
-  - {fileID: 11400000, guid: 9eb07e2d669e9c94e9d7d3c782a916f7, type: 2}
-  - {fileID: -944628639613478452, guid: d4580ddb403296c4e8150653f661069e, type: 3}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -830,7 +828,7 @@ PlayerSettings:
   cloudProjectId: 2cb86c48-3b07-4bdf-b7e2-bc1dfa01d79f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: NingenWasher
+  projectName: 
   organizationId: unity_241325
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
