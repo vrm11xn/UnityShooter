@@ -5183,9 +5183,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fTime: 0
-  fResetTime: 3
+  fResetTime: 60
   timeText: {fileID: 620894462}
-  Object: {fileID: 0}
 --- !u!1001 &712051805
 PrefabInstance:
   m_ObjectHideFlags: 0
