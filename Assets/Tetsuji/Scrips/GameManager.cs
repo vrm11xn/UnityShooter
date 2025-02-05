@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    private _timeManager tm;          // タイマー
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,8 +16,9 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.K) == true)
         {
+         
             Debug.Log("ChangeResult");
             SceneManager.LoadScene("result");
         }

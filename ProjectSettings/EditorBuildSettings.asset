@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/result.unity
     guid: 61ac314fedfbb5e408e8a07faf85a6b1
+  - enabled: 1
+    path: Assets/Scenes/TimeOver.unity
+    guid: a769d0b443b92d0428dba0b975483d1e
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9eb07e2d669e9c94e9d7d3c782a916f7,
       type: 2}
